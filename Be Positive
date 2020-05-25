@@ -1,0 +1,14 @@
+n = int(input())   #number of terms
+
+list = []          #empty list
+
+for i in range(n):
+    num = int(input())
+    list.append(num)
+    
+list2 = []    
+for i in list:
+    if i >= 0:
+        list2.append(i)
+        
+print(list2)
